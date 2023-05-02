@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Squites</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="contenedor">
+      
+      <div class="formulario">
+        <p>Pedido elote</p>
+<form action="ejemplo.php" method="POST">
+    <label for = "usuario"> Nombre de cliente: <input type="text"></label><br><br>
+    pin cliente<input type="password" pattern=".{6,}"><br><br> 
+
+</form>
+tamaño vaso: <select name="tamaño vaso">
+    <option value="value1" selected>10</option>
+    <option value="value2">11 </option> 
+    <option value="value3">12</option>
+    <option value="value4">13</option>
+    <option value="value5" >14</option>
+    <option value="value6">15</option>    
+  </select><br><br>
+
+
+  tipo chile: <select name="tipo chile">
+    <option value="value1" selected>del que pica</option>
+    <option value="value2">del que no pica </option> 
+    <option value="value3">de arbol</option>
+    <option value="value4">de clapulin</option>    
+  </select><br><br>
+
+  <br>
+        <label for="rango">cantidad de chile</label>
+        <input type="range" min="1" max="10" step="2" name="rango" id="rango"><br><br>
+
+  <label>Con limon:  <input type="radio" name="opciones" id="si" value="first_checkbox">  si</label>
+
+<input type="radio" name="opciones"id="no" value="second_checkbox"> <label for="cbox2">  no</label><br><br>
+
+
+
+<label>Ingredientes extra:  <input type="checkbox" id="bufalo" value="first_checkbox">  bufalo</label>
+<input type="checkbox" id="valentina" value="second_checkbox"> <label for="cbox2">  valentina</label>
+<input type="checkbox" id="tajin" value="tercer_checkbox"> <label for="cbox2">  tajin</label><br><br>
+
+<br>
+<label for="area">Comentario</label><br>
+        <textarea name="area" id="area" cols="30" rows="20"> </textarea><br><br>
+
+<input type="submit" value="pedir">
+</form> 
+
+      </div>
+    </div>
+  </body>
+</html>
